@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+form{
+    background-color:white;
+    width: 30%;
+    height: 350px;
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+input{
+    height: 5vh;
+}
+.remember{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+p{
+    text-decoration:underline;
+}
+.botton{
+    padding-top: 10px;
+}
+button{
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project html team 2</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>LOGIN TO YOUR ACCOUNT</h2>
+        <div class="user">
+            <label for="user">Username</label>
+            <input type="Username" name="Username">
+            <label for="Email">Email</label>
+            <input type="Email" name="Email">
+            <label for="Password">Password</label>
+            <input type="Password" name="password">
+        </div>
+        <div class="remember">
+            <input type="checkbox" name="checkbox">
+            <p>Remember me!</p>
+        </div>
+        <div class="botton">
+            <button>Login</button>
+        </div>
+    </form>
+</body>
+
+</html>
